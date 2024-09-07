@@ -1,0 +1,146 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Van West Media | NYC Digital Marketing Agency</title>
+  <link href="css/output.css" rel="stylesheet">
+  <link rel="stylesheet" href="src/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;400;600;800&family=Cardo:wght@400;700&display=swap" rel="stylesheet">
+  <script>
+    function includeHTML() {
+      const elements = document.querySelectorAll('[data-include]');
+      elements.forEach(el => {
+        fetch(el.getAttribute('data-include'))
+          .then(response => response.text())
+          .then(data => {
+            el.innerHTML = data;
+          });
+      });
+    }
+    document.addEventListener("DOMContentLoaded", includeHTML);
+  </script>
+</head>
+<body class="bg-gray-100">
+  <header class="">
+      <div data-include="components/navbar.html" class=""></div>
+      <div class="lg:px-24 lg:py-6 px-8 py-8 flex sm:flex-row flex-col items-start sm:items-end">
+        <div class="w-full md:w-[60%] flex flex-col">
+          <h1 class="font-sans font-extralight lg:text-h2 text-h3 text-smalt-blue-900 whitespace-nowrap text-center sm:text-left">Digital Marketing.</h1>
+          <h2 class="font-serif italic lg:text-h2 text-h3 text-vermillion-500 whitespace-nowrap text-center sm:text-left">Driven By Intelligence.</h2>
+        </div>
+        <div class="w-full md:w-[40%] relative flex items-center mt-4 md:mt-0 md:pb-3">
+          <div class="flex-grow border-t border-woodsmoke"></div>
+          <button class="btn-ghost-VWM">Get in touch</button>
+          <div class="flex-grow border-t border-woodsmoke"></div>
+        </div>
+      </div>
+      
+      <script src="https://cdn.tailwindcss.com"></script>
+      <!-- video -->
+      <div class="w-full h-[300px] sm:h-[300px] md:h-[400px] lg:h-[600px] xl:h-[800px] overflow-hidden">
+        <video Autoplay loop muted playsinline class="object-cover w-full h-full"> <!-- add: Autoplay loop -->
+          <source src="src\video\AIpowered-vwm.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    </header>
+  <main class="">
+    <!-- expertise section -->
+    <div class="px-8 py-8 lg:px-24 lg:py-16 gap-8">
+      <div class="mb-8">
+        <h3 class="text-h3 text-woodsmoke font-serif font-normal text-center sm:text-left">Van West Expertise</h3>
+        <p class="text-[1.5rem] font-sans font-extralight text-center sm:text-left text-smalt-blue-900">We integrate strategy, design, and technology to optimize every user journey and deliver results.</p>
+      </div>
+      <div class="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-2 md:gap-4">
+        <div class="expertise-container">
+          <h4 class="expertise">User Experience</h4>
+          <ul>
+            <li class="expertise-detail">User-Centric Website Design</li>
+            <li class="expertise-detail">UI/UX Audits & Enhancements</li>
+            <li class="expertise-detail">Prototyping & Wireframing</li>
+            <li class="expertise-detail">Usability Testing & Analysis</li>
+            <li class="expertise-detail">Accessibility Optimization</li>
+          </ul>
+        </div>
+        <div class="">
+          <h4 class="expertise">Development</h4>
+          <ul>
+            <li class="expertise-detail">E-commerce Optimization</li>
+            <li class="expertise-detail">API Development & Integration</li>
+            <li class="expertise-detail">CMS Development</li>
+            <li class="expertise-detail">SEO & Analytics Implementation</li>
+            <li class="expertise-detail">Hosting and Support</li>
+          </ul>
+        </div>
+        <div class="">
+          <h4 class="expertise">Digital marketing</h4>
+          <ul>
+            <li class="expertise-detail">Social Media Strategy</li>
+            <li class="expertise-detail">Campaign Development</li>
+            <li class="expertise-detail">Inbound Marketing</li>
+            <li class="expertise-detail">Video Production</li>
+            <li class="expertise-detail">Branding & Visual Identity</li>
+          </ul>
+        </div>
+        <div class="">
+          <h4 class="expertise">Strategy</h4>
+          <ul>
+            <li class="expertise-detail">Data Analytics</li>
+            <li class="expertise-detail">Digital Strategy & Consulting</li>
+            <li class="expertise-detail">Market Research & Insights</li>
+            <li class="expertise-detail">Conversion Optimization</li>
+            <li class="expertise-detail">Customer Journey Mapping</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- clients section -->
+    <div class="px-8 py-8 lg:px-24 lg:py-16 gap-8">
+      <div class="mb-8">
+        <h3 class="text-h3 font-serif font-normal text-center sm:text-left">World Class Clients</h3>
+      </div>
+      <div class="expertise-grid grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-5 gap-4">
+        <img src="src\img\SONY.png" alt="" class="border-2 border-Smalt Blue/200">
+        <img src="src\img\AEROFARMS.png" alt="" class="border-2 border-Smalt Blue/200">
+        <img src="src\img\FLOS.png" alt="" class="border-2 border-Smalt Blue/200">
+        <img src="src\img\RITZ.png" alt="" class="border-2 border-Smalt Blue/200">
+        <img src="src\img\ETIENNE.png" alt="" class="border-2 border-Smalt Blue/200">
+        <img src="src\img\SSRGA.png" alt="" class="border-2 border-Smalt Blue/200">
+        <img src="src\img\67WINE.png" alt="" class="border-2 border-Smalt Blue/200">
+        <img src="src\img\GOLDENDOOR.png" alt="" class="border-2 border-Smalt Blue/200">
+        <img src="src\img\DELOITTE.png" alt="" class="border-2 border-Smalt Blue/200">
+        <img src="src\img\QB.png" alt="" class="border-2 border-Smalt Blue/200">
+      </div>
+    </div>
+
+    <!-- latests work section -->
+    <div class="px-8 py-8 lg:px-24 lg:py-16 gap-8">
+      <div class="mb-8">
+        <h3 class="text-woodsmoke text-h3 font-serif font-normal text-center sm:text-left">Latest Work</h3>
+        <p class="text-[1.5rem] text-smalt-blue-900 font-sans font-extralight text-center sm:text-left">Innovative designs with high-tech expertise drive outstanding results.</p>
+      </div>
+      <div class="mb-8 grid grid-cols-3 sm:grid-cols-4  md:grid-cols-6 lg:grid-cols-7 gap-4 sm:gap-3 md:gap-2 mx-3 md:mx-4 lg:mx-8">
+      <button class="btn-filter-active-VWM">Featured</button>
+      <button class="btn-filter-inactive-VWM">Real State</button>  
+      <button class="btn-filter-inactive-VWM">Non Profit</button>  
+      <button class="btn-filter-inactive-VWM">Law Firms</button>  
+      <button class="btn-filter-inactive-VWM">Ecommerce</button>  
+      <button class="btn-filter-inactive-VWM">Architecture</button>  
+      <button class="btn-filter-inactive-VWM">Technologies</button> 
+      </div>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-4 gap-y-4">
+        <div data-include="components/projectcard.html" class=""></div>
+        <div data-include="components/projectcard.html" class=""></div>
+        <div data-include="components/projectcard.html" class=""></div>
+        <div data-include="components/projectcard.html" class=""></div>
+        <div data-include="components/projectcard.html" class=""></div>
+        <div data-include="components/projectcard.html" class=""></div>
+        <div data-include="components/projectcard.html" class=""></div>
+        <div data-include="components/projectcard.html" class=""></div>
+        <div data-include="components/projectcard.html" class=""></div>
+      </div>
+    </div>
+  </main>
+  <div data-include="components/footer.html"></div>
+</body>
+</html>
