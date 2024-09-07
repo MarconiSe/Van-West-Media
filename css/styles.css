@@ -30,7 +30,7 @@ box-sizing: border-box;
     whitespace-nowrap
     text-center md:text-left
     hover:font-semibold
-    hover: text-woodsmoke
+    hover:text-woodsmoke
     transition-duration: 1s
     ease-in-out;
   }
@@ -44,7 +44,7 @@ box-sizing: border-box;
     border-smalt-blue-300
     whitespace-nowrap inline-block
     hover:border-smalt-blue-200
-    text-smalt-blue-400
+    hover:text-smalt-blue-400
     transition-duration: 0.5s
     ease-in-out
     ;
