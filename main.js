@@ -13,6 +13,8 @@ async function workArea() {
       const clone = template.content.cloneNode(true);
 
       clone.querySelector(".card-title").textContent = work.Name;
+      clone.querySelector(".card-description").textContent = work.About;
+      clone.querySelector("img").src = work.Photo
 
       wrapper.appendChild(clone); // Append the clone to the wrapper
   });
