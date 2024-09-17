@@ -144,17 +144,20 @@
         </div>
       </div>
     </div>  
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-4 gap-y-4">
-          <div data-include="components/projectcard.html" class=""></div>
-          <div data-include="components/projectcard.html" class=""></div>
-          <div data-include="components/projectcard.html" class=""></div>
-          <div data-include="components/projectcard.html" class=""></div>
-          <div data-include="components/projectcard.html" class=""></div>
-          <div data-include="components/projectcard.html" class=""></div>
-          <div data-include="components/projectcard.html" class=""></div>
-          <div data-include="components/projectcard.html" class=""></div>
-          <div data-include="components/projectcard.html" class=""></div>
-        </div>
+    <div class="work-section grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-4 gap-y-4">
+      <template id="work-card-template">
+          <div class="card">
+              <div class="justify-center">
+                  <img src="src/img/SUK.png" alt="SUK Design Studio" class="">
+              </div>
+              <div>
+                  <h4 class="card-title" id="card-tittle"></h4>
+                  <h5 class="card-description">Crafting Architectural Elegance Online</h5>
+              </div>
+          </div>
+      </template>
+  </div>
+  
   </div>
   </main>
   <div data-include="components/footer.html"></div>
