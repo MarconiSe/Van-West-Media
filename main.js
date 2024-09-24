@@ -16,6 +16,8 @@ async function workArea() {
       clone.querySelector(".card-description").textContent = work.About;
       clone.querySelector("img").src = work.Photo
 
+      if (!work.Photo) pet.Photo= "src\img\fallbackworkimage.png"
+
       wrapper.appendChild(clone); // Append the clone to the wrapper
   });
   document.querySelector(".work-section").appendChild(wrapper); // Append the wrapper to the work-section
