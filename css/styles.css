@@ -18,7 +18,6 @@ box-sizing: border-box;
 }
 
 @layer components {
-  
   .expertise-container{
     display: block;
   }
